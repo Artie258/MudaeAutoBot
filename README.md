@@ -21,6 +21,19 @@ If these resources do not help there are plently of resources online to help you
 + Does it have `gateway` log data ? - Your using older version of Dis.c.u.m refer to their github: https://github.com/Merubokkusu/Discord-S.C.U.M
 + How is bot suppose to look like in normal state - 
 ![image](https://user-images.githubusercontent.com/33008397/123542012-47927e00-d715-11eb-9bf9-26c78a9721d7.png)
+Make sure to install Git, add it to the path. 
+-Install the proper version of discum, it sometimes might give an error, installing this might help: 
+pip install ndg-httpsclient
+
+pip install pyopenssl
+
+pip install pyasn1
+-
+If the bot doesnt display " READING FROM FILE FOR ########## CHANNEL" something might be wrong, check your packages and try to re run it.
+Bot sometimes does not want to roll, unsure whether is connection issue or something to do with the timing it calculates- TO REVIEW
+
+
+
 
 + Claims / Bot didn't claim X character - Please make sure you have checked if the `bot has not claimed already within the claim window` , or that `someone else did not already claim X character before the snipe protection has expired`
 
@@ -55,8 +68,8 @@ To configure the bot, you'll edit the variables in the **Settings_Mudae.json** f
 ## Bot settings
 All settings are set within the Settings_Mudae.json File
 
-+ `token` - The user token for the account you want to bot on. If you need extra assistance on how to obtain it, let me know.
-+ `channelids` - Which channels to **roll** and **monitor**  e.g. 807##########948
++ `token` - The user token for the account you want to bot on. If you need extra assistance on how to obtain it, let me know. (NOTE THIS IS THE USER TOKEN NOT A BOT TOKEN")
++ `channelids` - Which channels to **roll** and **monitor**  e.g. 807##########948 (RIGHT CLICK ON CHANNEL AND COPY ID OF THE CHANNEL THAT YOU ARE GOING TO PERFORM SNIPES, ROLLS AND CLAIMS)
 + `claim_delay` - _Affects servers w/o $setting instance_ Time in **seconds** to wait before attempting to Claim Characters e.g. 5
 + `kak_delay` - _Affects servers w/o $setting instance_ Time in **seconds** to wait before attempting to snipe Kakeraloot e.g. 8
 + `use_emoji` - This setting only works if you change the Mudaebot.py code by uncommenting out the line (Custom emojis only) e.g.  "<:emoji_name:795############214>"
