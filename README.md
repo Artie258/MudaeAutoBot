@@ -1,4 +1,13 @@
 
+Support Vivinano! This bot is amazing, I am trying to contribute in better logging and some features myself, I lack knowledge in programming but I will try my best 
+- Features that I am trying to add
+- Log estimated time the bot will roll, For some reason it does not want to roll at times. 
+- Analyze the snipe protections, I am testing the bot with me alone in a private server just to see how it reacts with snipe protections 
+- 
+
+
+
+
 # Regading Forking
 I have seen many users fork this repo. I do not mind forks but I really would like to state that github is a public space and that any user who forks this repo is ultimatly can be found by all the various users that frequent this repo. 
 
@@ -37,30 +46,16 @@ Bot sometimes does not want to roll, unsure whether is connection issue or somet
 
 + Claims / Bot didn't claim X character - Please make sure you have checked if the `bot has not claimed already within the claim window` , or that `someone else did not already claim X character before the snipe protection has expired`
 
-**Future Issues opened that do NOT deal with a Error with the BOT will be labeled accordingly and closed**
 
-# MudaeAutoBot
-MudaeAutoBot is a python bot that auto rolls and attempts to snipe Kakeras and Claims in Mudae
-
-# Features
-+ Snipes and claims Kakera in any Discord servers you're in that has Mudae#0807
-+ Kakera value sniping as long as kakera value can be determined (e.g. Like Rank, Claim Rank, ## Kakera)
-+ Maximizes rolls by tracking roll timers
-+ Waifu/Husbando rolling
-+ Pokeslot rolling
-+ Selective Kakera Reaction Snipes Features(Includes: Soulmate Kak sniping Feature)
-+ Mudae emoji reaction event sniping support
-
-## How it works
-All this bot needs to work is your Discord _usertoken_ and the channel IDs that you want it to post in
-
-This is intended to be completely automated; it doesn't need to take any input other than initial settings configuration.
-You'll be able to leave the window running in the background, and not need to think about it.
-
-## Requirements
-
+Requirements
 + Python 3.7+
 + discum 1.3+
+
+For NEWBIES
+You might need to install some vitals before running a lot of modules, as an example I had to install visual studio because my pc refused to install discum and pip because it had an old version- Yes I know my pc is crap,
+
+
+
 
 # Configuration
 To configure the bot, you'll edit the variables in the **Settings_Mudae.json** file for your botting needs.
